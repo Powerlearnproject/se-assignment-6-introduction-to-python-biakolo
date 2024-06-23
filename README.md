@@ -44,3 +44,110 @@ Answer the following questions based on your understanding of Python programming
 - Submit your completed assignment by [due date].
 
 
+
+
+
+SUBMISSION FOR AKPOBOME BIAKOLO
+
+Python Basics
+What is Python?
+Python is a general-purpose, high-level programming language known for its:
+* Readability: Its clear and concise syntax makes code easy to understand and write.
+* Versatility: It can be used for various tasks, from web development and data science to machine learning and scripting.
+* Large Standard Library: It comes with a rich collection of built-in modules for various functionalities.
+* Free and Open-Source: It's freely available for anyone to use and contribute to.
+
+Popularity:
+Python's features make it a preferred choice for:
+* Beginners: Its simplicity allows for a smooth learning curve.
+* Rapid Prototyping: Code can be written quickly to test ideas and concepts.
+* Data Science and Machine Learning: Extensive libraries like NumPy, pandas, and scikit-learn support data analysis and model building.
+* Web Development: Frameworks like Django and Flask streamline web application development.
+* Automation: It can automate tasks and interact with other systems through scripting.
+
+Installing Python
+Steps:
+
+Download: Visit https://www.python.org/downloads/ and choose the appropriate installer for your operating system (Windows, macOS, or Linux).
+Run the installer: Follow the on-screen instructions to complete the installation.
+Verification: Open a terminal or command prompt and type python --version (or python3 --version on some systems). This should display the installed Python version.
+Virtual Environments:
+
+Virtual environments isolate project dependencies. Here's how to create one using venv (available in Python 3.3+):
+
+Open a terminal and navigate to your project directory.
+Run python -m venv my_env (replace my_env with your desired name).
+Activate the environment:
+Windows: my_env\Scripts\activate.bat
+macOS/Linux: source my_env/bin/activate
+Note: These are general steps. Consult official documentation for specific details on your OS.
+
+Python Syntax and Semantics
+Example:
+
+Python
+print("Hello, World!")
+Use code with caution.
+content_copy
+Explanation:
+
+print: Built-in function to display output on the console.
+(): Parentheses enclose arguments passed to the function (in this case, the string "Hello, World!").
+"Hello, World!": A string literal enclosed in double quotes.
+Data Types and Variables
+Data Types:
+Python has various data types to represent different kinds of data:
+
+* **Integers:** Whole numbers (e.g., 10, -5).
+* **Floats:** Numbers with decimal points (e.g., 3.14, -1.23).
+* **Strings:** Text enclosed in quotes (e.g., "Hello", 'World').
+* **Booleans:** True or False values.
+* **Lists:** Ordered collections of items enclosed in square brackets `[]` (e.g., `[1, 2, "apple"]`).
+* **Dictionaries:** Unordered collections of key-value pairs enclosed in curly braces `{}` (e.g., `{"name": "Alice", "age": 30}`).
+Script:
+Python
+# Integer
+age = 25
+
+# Float
+pi = 3.14159
+
+# String
+name = "Bob"
+
+# Boolean
+is_active = True
+
+# List
+fruits = ["apple", "banana", "orange"]
+
+# Dictionary
+person = {"name": "Charlie", "city": "New York"}
+
+print(f"Age: {age}, PI: {pi:.2f}, Name: {name}")  # f-string for formatted output
+print(fruits[1])  # Accessing list element by index
+print(person["city"])  # Accessing dictionary value by key
+Use code with caution.
+content_copy
+Explanation:
+
+We assign values to variables using the assignment operator =.
+The data type is determined by the value assigned.
+We can access elements in lists by their index (starting from 0) and dictionary values by their keys.
+f-strings allow for formatted string output.
+Control Structures
+Conditional Statements:
+Use if, elif (else if), and else to control program flow based on conditions.
+
+Example (if-else):
+
+Python
+number = 10
+
+if number >
+Use code with caution.
+
+ 
+
+
+
